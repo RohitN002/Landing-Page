@@ -1,0 +1,327 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html{scroll-behavior: smooth;}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+}
+.logo{
+    position: relative;
+    padding-left:150px;
+    padding-top:16px;
+}
+.topbar{
+    margin-top: 30px;
+    margin-left: 350px;
+
+}
+.topbar a{
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color:lightgray;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.topbar a:hover{
+    color:black;
+    border-bottom: 3px solid #8071D0;
+    transform: scale(1.1);
+}
+.acbtn {
+   padding-left:20%;
+   padding-top: 15px;
+}
+button{
+    padding: 18px 15px;
+    background-color:  #FED7DA;
+    color: #A389CC;
+    font-size: 14px;
+    font-weight: 550;
+    border: none;
+    border-radius: 23px;
+}
+.cards button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.section{
+    display: flex;
+}
+.landing-section{
+     padding-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+} 
+.content h1{
+    margin-left: 190px;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 68px;
+    letter-spacing: -2.5px;
+    word-spacing: 5px;
+}
+.content p{
+    color:rgb(81, 81, 82);
+    margin-left: 190px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5;
+    word-spacing: 2.5px;
+    text-shadow: 0px 0px 1px rgb(81, 81,82) ;
+
+}
+
+
+.button button{
+    margin-top: 30px;
+    margin-left:230px;
+    background-color: #5243C0;
+    color:  #ffffff;
+}
+#button{
+    display: flex;
+}
+.arrow{
+    margin-top:30px ;
+    margin-left: 15px;
+}
+.arrow img{
+    padding-right: 8px;
+}
+.cards{
+    margin-left: 190px;
+    margin-top: 50px;
+}
+/*.cards{
+    width: 50px;
+    height: 20px;
+
+}*/
+.cards :hover{
+    transform: scale(1.03);
+
+}
+.cards button{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 8px 40px 15px 0px;
+    border:none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    color:black;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 5px #cfcece;
+    font-size: 14px;
+
+    
+}
+
+.pink img{
+    position: relative;
+    top:6px;
+    left:38px;
+}.orange img{
+    position: relative;
+    top:6px;
+    left:38px;
+}
+.blue img{
+    position: relative;
+    top:6px;
+    left:38px;
+}
+.red img{
+    position: relative;
+    top:6px;
+    left:38px;
+}
+.date1{
+    position: relative;
+    left: 25px;
+    color: lightgrey;
+}
+.date2{
+    position: relative;
+    left:16px;
+    color: lightgrey;
+}
+.date3{
+    position: relative;
+    left: 40px;
+    color: lightgray;
+}
+.date4{
+    position: relative;
+    left: 50px;
+    color: lightgray;
+
+}
+.gray-tick1{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    left: 2px;
+}
+.gray-tick2{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    left: 12px;
+    
+}
+.gray-tick3{
+    position: relative;
+
+    top:6px;
+    margin-right: 0px;
+    right: 10px;
+}
+
+.gray-tick4{
+    position: relative;
+    top:6px;
+    margin-right:0px;
+    right: 20px;
+
+
+}
+
+.border1{
+    border-bottom:6px solid #FED7DA;
+    position: relative;
+    border-radius: 2.5px;
+    bottom: 9px;
+    left:40px
+    
+    
+}
+.border2{
+    border-bottom:6px solid #fd6534;
+    border-radius: 2.5px;
+    position: relative;
+    bottom: 10px;
+    left: 34px;
+    
+}
+.border3{
+    border-bottom:6px solid #9ed095;
+    border-radius:2.5px;
+    position: relative;
+    bottom: 10px;
+    left: 55px; 
+}
+.border4{
+    border-bottom:6px solid #FFE4A0;
+    border-radius: 2.5px;
+    position: relative;
+    bottom: 10px;
+     left:65px;
+   
+  
+}
+
+.bluetick1{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    display: none;
+    left: 2px;
+
+
+}
+
+.bluetick2{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    display: none;
+    left: 12px;
+}
+
+.bluetick3{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    display: none;
+    left: 0px;
+
+}
+
+.bluetick4{
+    position: relative;
+    top:6px;
+    margin-right: 20px;
+    display: none;
+    right: 10px;
+}
+
+.let1{
+    position: relative;
+    left: 0px;
+}
+.let2{
+    position: relative;
+    
+    left: 6px;  
+}
+
+.let3{position: relative;
+    border-right: 20px;
+    left: 3px;
+
+
+}
+
+.let4{
+    position: relative;
+    right: 20px;
+    border-right: 200px;
+}
+
+#img1{
+    position: relative;
+    left: 57px;
+}
+
+#img2{
+    position: relative;
+    left: 47px;
+}
+
+#img3{
+    position: relative;
+    right: 0%;
+    left: 69px;
+}
+
+#img4{
+    position: relative;
+    left: 76px;
+}
+
+
+
+
+#button1:hover #g1{display: none;}
+#button1:hover #b1{display: inline;}
+
+#button2:hover #g2{display: none;}
+#button2:hover #b2{display: inline;}
+
+#button3:hover #g3{display: none;}
+#button3:hover #b3{display: inline;}
+
+#button4:hover #g4{display: none;}
+#button4:hover #b4{display: inline;}
+
